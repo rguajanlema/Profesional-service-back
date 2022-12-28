@@ -2,7 +2,8 @@ package guajan.com.entity;
 
 import javax.persistence.*;
 
-@Entity(name = "abilitys")
+@Entity
+@Table(name = "abilitys")
 public class Ability {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -21,4 +21,9 @@ public class ServerServiceImpl implements ServerService{
     public List<Server> getAll() {
         return serverRepository.findAll();
     }
+
+    @Override
+    public Server save(Server server) {
+        return serverRepository.save(server);
+    }
 }

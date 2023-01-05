@@ -7,4 +7,6 @@ import java.util.List;
 public interface ServerService {
 
     List<Server> getAll();
+
+    Server save(Server server);
 }

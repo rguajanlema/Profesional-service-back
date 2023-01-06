@@ -8,6 +8,7 @@ class ProfesionalServiceBackApplicationTests {
 
 	@Test
 	void contextLoads() {
+		String aux = "Hola";
 	}
 
 }

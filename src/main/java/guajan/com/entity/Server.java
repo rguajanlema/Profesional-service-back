@@ -23,6 +23,13 @@ public class Server {
 
     private boolean status;
 
+    public Server(){}
+    public Server(User user, String profesion, boolean status){
+        this.user = user;
+        this.profesion = profesion;
+        this.status = status;
+    }
+
     public Long getId() {
         return id;
     }
